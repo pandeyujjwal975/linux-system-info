@@ -1,0 +1,1 @@
+created /sysinfo.sh
