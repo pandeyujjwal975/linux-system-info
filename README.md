@@ -1,157 +1,158 @@
 Linux System Info
 
 <p align="center">
-  <a href="https://github.com/pandeyujjwal975/linux-system-info">
-    <img src="docs/screenshots/terminal-output.png" alt="Linux System Info Hacker Style Preview" width="100%">
-  </a>
-</p><p align="center">
-  <strong>Know Your Linux System. From the Terminal.</strong>
-</p><p align="center">
-  A lightweight Bash utility that turns raw Linux system information into a clean, readable terminal report.
+  <img src="docs/screenshots/terminal-output.png" alt="Linux System Info - Hacker Style Preview" width="100%">
+</p><h1 align="center">Linux System Info</h1><p align="center">
+  <strong>A lightweight, fast and colorful Bash utility for discovering useful Linux system information directly from the terminal.</strong>
 </p><p align="center">
   <a href="https://github.com/pandeyujjwal975/linux-system-info">
-    <img src="https://img.shields.io/badge/Repository-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
-  <a href="https://github.com/pandeyujjwal975/linux-system-info/releases">
-    <img src="https://img.shields.io/github/v/release/pandeyujjwal975/linux-system-info?style=for-the-badge&logo=github&label=Release" alt="Latest Release">
+  <a href="https://github.com/pandeyujjwal975/linux-system-info/stargazers">
+    <img src="https://img.shields.io/github/stars/pandeyujwal975/linux-system-info?style=for-the-badge&logo=github&logoColor=white" alt="Stars">
+  </a>
+  <a href="https://github.com/pandeyujjwal975/linux-system-info/network/members">
+    <img src="https://img.shields.io/github/forks/pandeyujjwal975/linux-system-info?style=for-the-badge&logo=github&logoColor=white" alt="Forks">
   </a>
 </p><p align="center">
-  <img src="https://img.shields.io/badge/Bash-4.x%2B-121011?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
-  <img src="https://img.shields.io/badge/Linux-Compatible-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/License-MIT-00A67E?style=flat-square" alt="MIT License">
-  <img src="https://img.shields.io/github/stars/pandeyujjwal975/linux-system-info?style=flat-square&logo=github" alt="Stars">
-  <img src="https://img.shields.io/github/forks/pandeyujjwal975/linux-system-info?style=flat-square&logo=github" alt="Forks">
-  <img src="https://img.shields.io/github/issues/pandeyujjwal975/linux-system-info?style=flat-square&logo=github" alt="Issues">
+  <img src="https://img.shields.io/badge/Bash-4.x%2B-00FF9C?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
+  <img src="https://img.shields.io/badge/Linux-Supported-00D9FF?style=flat-square&logo=linux&logoColor=white" alt="Linux">
+  <img src="https://img.shields.io/badge/Git-Version_Control-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/License-MIT-BD5CFF?style=flat-square" alt="MIT License">
+  <img src="https://img.shields.io/github/last-commit/pandeyujjwal975/linux-system-info?style=flat-square&color=FF4ECD" alt="Last Commit">
 </p><p align="center">
-  <a href="https://github.com/pandeyujjwal975/linux-system-info/issues">Report Bug</a>
-  ·
-  <a href="https://github.com/pandeyujjwal975/linux-system-info/issues">Request Feature</a>
-  ·
-  <a href="https://github.com/pandeyujjwal975/linux-system-info/blob/main/docs/usage.md">Usage Guide</a>
+  <a href="#-features">Features</a>
+  &nbsp;•&nbsp;
+  <a href="#-installation">Installation</a>
+  &nbsp;•&nbsp;
+  <a href="#-usage">Usage</a>
+  &nbsp;•&nbsp;
+  <a href="#-testing">Testing</a>
+  &nbsp;•&nbsp;
+  <a href="#-contributing">Contributing</a>
 </p>---
 
-Terminal First. Simple by Design.
+Terminal Identity
 
-Linux System Info is a small, open-source Bash utility built for people who want a quick overview of their Linux environment without installing a large system-monitoring application.
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│   $ ./sysinfo.sh                                             │
+│                                                              │
+│   SYSTEM     CPU     MEMORY     STORAGE     NETWORK          │
+│                                                              │
+│   ────────────────────────────────────────────────────────   │
+│                                                              │
+│   Fast. Local. Lightweight. Bash-powered.                    │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
 
-It collects useful information from the local machine and presents it in a structured terminal interface.
+Linux System Info turns several common Linux commands into one simple terminal utility.
 
-No dashboard.
+Instead of checking your system piece by piece, run one command and get a structured overview.
 
-No database.
-
-No web server.
-
-No unnecessary dependencies.
-
-Just Bash + Linux + useful system information.
+./sysinfo.sh
 
 ---
 
-Why This Project?
+Why Linux System Info?
 
-Sometimes you do not need a full monitoring platform.
+Linux already provides powerful system utilities.
 
-You just want to open a terminal and quickly answer:
+The problem is that information is spread across many commands:
 
-What OS am I running?
-What kernel version is installed?
-How many CPU cores do I have?
-How much RAM is available?
-How much disk space is being used?
-What is my IP address?
-Which user and shell am I using?
-How long has the system been running?
+uname
+free
+df
+ip
+uptime
+nproc
+whoami
+id
+date
 
-Linux System Info provides those answers in one place.
+Linux System Info brings useful results together into one readable report.
+
+Designed for
+
+- Linux beginners
+- Bash learners
+- Students
+- Developers
+- System administrators
+- Troubleshooting
+- Quick system checks
+- Open-source contributors
 
 ---
 
 Features
 
+<div align="center">Module| What It Shows| Status
+<img src="https://img.shields.io/badge/SYSTEM-00D9FF?style=flat-square&logo=linux&logoColor=white" alt="System">| OS, kernel, architecture, hostname, uptime| "READY"
+<img src="https://img.shields.io/badge/CPU-FF5C8A?style=flat-square&logo=intel&logoColor=white" alt="CPU">| Processor and CPU core count| "READY"
+<img src="https://img.shields.io/badge/MEMORY-BD5CFF?style=flat-square&logo=googlecloud&logoColor=white" alt="Memory">| Total, used and available RAM| "READY"
+<img src="https://img.shields.io/badge/STORAGE-00E676?style=flat-square&logo=databricks&logoColor=white" alt="Storage">| Filesystem, total, used, free and usage| "READY"
+<img src="https://img.shields.io/badge/NETWORK-00B8FF?style=flat-square&logo=wifi&logoColor=white" alt="Network">| Interfaces and IP addresses| "READY"
+<img src="https://img.shields.io/badge/USER-FFB300?style=flat-square&logo=linux&logoColor=white" alt="User">| Username, UID, home and shell| "READY"
+<img src="https://img.shields.io/badge/TIME-FF4ECD?style=flat-square&logo=clockify&logoColor=white" alt="Time">| Current date and system time| "READY"
+
+</div>---
+
+Feature Details
+
 System
 
-- Operating system detection
-- Linux kernel version
-- CPU architecture
-- Hostname
-- System uptime
+OS              → Linux distribution
+KERNEL          → Running kernel version
+ARCHITECTURE    → CPU architecture
+HOSTNAME        → Machine hostname
+UPTIME          → System running time
 
 CPU
 
-- Processor information
-- CPU core count
+PROCESSOR       → Processor model
+CPU CORES       → Available CPU cores
 
 Memory
 
-- Total RAM
-- Used RAM
-- Available RAM
+TOTAL RAM       → Installed memory
+USED RAM        → Currently used memory
+AVAILABLE RAM   → Available memory
 
 Storage
 
-- Filesystem information
-- Total storage
-- Used storage
-- Available storage
-- Usage percentage
+FILESYSTEM      → Filesystem information
+TOTAL SPACE     → Total storage
+USED SPACE      → Used storage
+AVAILABLE       → Remaining storage
+USAGE           → Storage utilization
 
 Network
 
-- Network interfaces
-- IP addresses
+INTERFACES      → Available network interfaces
+IP ADDRESSES    → Local IP addresses
 
 User
 
-- Current username
-- User ID
-- Home directory
-- Current shell
+USERNAME        → Current Linux user
+USER ID         → Current UID
+HOME            → User home directory
+SHELL           → Current shell
 
 Time
 
-- Current system date
-- Current system time
-
----
-
-Feature Matrix
-
-Module| Information| Status
-System| Operating System| Available
-System| Kernel| Available
-System| Architecture| Available
-System| Hostname| Available
-System| Uptime| Available
-CPU| Processor| Available
-CPU| CPU Cores| Available
-Memory| Total RAM| Available
-Memory| Used RAM| Available
-Memory| Available RAM| Available
-Storage| Filesystem| Available
-Storage| Total Space| Available
-Storage| Used Space| Available
-Storage| Available Space| Available
-Storage| Usage Percentage| Available
-Network| Interfaces| Available
-Network| IP Addresses| Available
-User| Username| Available
-User| User ID| Available
-User| Home Directory| Available
-User| Shell| Available
-Time| Current Time| Available
+DATE            → Current system date
+TIME            → Current system time
 
 ---
 
 Preview
 
 <p align="center">
-  <img src="docs/screenshots/terminal-output.png" alt="Linux System Info Terminal Output" width="900">
-</p>The interface follows a terminal-focused, hacker-style visual identity while keeping the actual output simple and readable.
+  <img src="docs/screenshots/terminal-output.png" alt="Linux System Info Terminal Preview" width="900">
+</p>---
 
----
-
-Example
+Terminal Demo
 
 ==============================================================
                  Welcome to Linux System Info
@@ -212,261 +213,184 @@ Shell         : /bin/bash
                     Scan Complete
 ==============================================================
 
-«The values above are examples. Actual output depends on the Linux machine where the script is executed.»
+The values above are illustrative. Actual values depend on the Linux system where the script runs.
 
 ---
 
 Tech Stack
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</p>Core Technologies
+<div align="center">Technology| Role
+<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash">| Core scripting language
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">| Operating environment
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">| Version control
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">| Collaboration and hosting
 
-Technology| Purpose
-Bash| Main scripting language
-Linux CLI| System information and utilities
-Git| Version control
-GitHub| Open-source collaboration
+</div>Architecture Philosophy
 
----
-
-Dependencies
-
-The project intentionally avoids external frameworks.
-
-It relies primarily on standard Linux commands such as:
-
-uname
-hostname
-uptime
-nproc
-free
-df
-ip
-whoami
-id
-date
-
-System files used include:
-
-/etc/os-release
-/proc/cpuinfo
-
-The exact availability of commands may vary between Linux distributions.
+┌────────────────────────────────────────────┐
+│              LINUX SYSTEM INFO             │
+├────────────────────────────────────────────┤
+│                                            │
+│   Bash                                     │
+│     │                                      │
+│     ├── Linux system files                 │
+│     │                                      │
+│     ├── Standard CLI utilities             │
+│     │                                      │
+│     └── Terminal output                    │
+│                                            │
+└────────────────────────────────────────────┘
 
 ---
 
 Requirements
 
-Before using Linux System Info, make sure you have:
+<div align="center">Requirement| Minimum / Expected
+Operating System| Linux
+Shell| Bash 4.x+
+Dependencies| Standard Linux utilities
+Internet| Not required for execution
+Root / sudo| Not required
 
-- A Linux-based operating system
-- Bash
-- Standard Linux command-line utilities
-
-Test Bash:
+</div>Check your Bash version:
 
 bash --version
 
-Test required commands:
-
-command -v uname
-command -v hostname
-command -v uptime
-command -v nproc
-command -v free
-command -v df
-command -v ip
-command -v whoami
-command -v id
-command -v date
-
 ---
 
-Supported Linux Distributions
+Supported Distributions
 
-The project is intended for common Linux environments, including:
+<div align="center">Distribution| Expected Support
+Ubuntu| "YES"
+Debian| "YES"
+Linux Mint| "YES"
+Fedora| "YES"
+Arch Linux| "YES"
+Kali Linux| "YES"
+Rocky Linux| "YES"
+AlmaLinux| "YES"
 
-- Ubuntu
-- Debian
-- Linux Mint
-- Fedora
-- Arch Linux
-- Kali Linux
-- Rocky Linux
-- AlmaLinux
+</div>Other Bash-compatible Linux distributions may also work.
 
-Other Bash-compatible Linux distributions may also work.
-
-Compatibility can vary depending on the commands and filesystem interfaces available on the distribution.
+Availability of individual commands can vary between distributions.
 
 ---
 
 Installation
 
-Clone
+01 — Clone
 
 git clone https://github.com/pandeyujjwal975/linux-system-info.git
 
-Enter the directory
+02 — Enter the Project
 
 cd linux-system-info
 
-Make the script executable
+03 — Make the Script Executable
 
 chmod +x sysinfo.sh
+
+04 — Run
+
+./sysinfo.sh
 
 ---
 
 Quick Start
 
-After cloning the repository:
+For a fresh installation:
 
-cd linux-system-info
-chmod +x sysinfo.sh
+git clone https://github.com/pandeyujjwal975/linux-system-info.git && \
+cd linux-system-info && \
+chmod +x sysinfo.sh && \
 ./sysinfo.sh
-
-That is all that is required for the basic setup.
 
 ---
 
 Usage
 
-Run the script
+Standard
 
 ./sysinfo.sh
 
-Run using Bash
+Through Bash
 
 bash sysinfo.sh
 
-Running through Bash is useful when the executable permission has not been set.
+Syntax Check
+
+bash -n sysinfo.sh
 
 ---
 
-Understanding the Output
+Command Reference
 
-The utility divides information into logical sections.
+<div align="center">Command| Purpose
+"./sysinfo.sh"| Run the utility
+"bash sysinfo.sh"| Run through Bash
+"bash -n sysinfo.sh"| Validate Bash syntax
+"bash tests/test.sh"| Run tests
+"chmod +x sysinfo.sh"| Add execute permission
 
-SYSTEM
-CPU
-MEMORY
-STORAGE
-NETWORK
-USER
-TIME
-
-This makes the output easier to scan when troubleshooting or checking a Linux environment.
-
----
+</div>---
 
 How It Works
 
-The execution flow is intentionally simple:
-
-Start
-  |
-  v
-Display Welcome Screen
-  |
-  v
-Detect Operating System
-  |
-  v
-Collect Kernel Information
-  |
-  v
-Collect CPU Information
-  |
-  v
-Collect Memory Information
-  |
-  v
-Collect Storage Information
-  |
-  v
-Collect Network Information
-  |
-  v
-Collect User Information
-  |
-  v
-Display Date / Time
-  |
-  v
-Display Final Output
-  |
-  v
-Exit
-
-The script reads information from the local Linux environment and prints the result to the terminal.
+                  START
+                    │
+                    ▼
+             Welcome Screen
+                    │
+                    ▼
+          ┌───────────────────┐
+          │ Collect System    │
+          └─────────┬─────────┘
+                    │
+       ┌────────────┼────────────┐
+       ▼            ▼            ▼
+     SYSTEM         CPU        MEMORY
+       │            │            │
+       └────────────┼────────────┘
+                    ▼
+                 STORAGE
+                    │
+                    ▼
+                 NETWORK
+                    │
+                    ▼
+                   USER
+                    │
+                    ▼
+                   TIME
+                    │
+                    ▼
+             Format Output
+                    │
+                    ▼
+              Terminal Report
+                    │
+                    ▼
+                   EXIT
 
 ---
 
-Information Sources
+Linux Information Sources
 
-Source| Purpose
-"/etc/os-release"| Operating system details
-"/proc/cpuinfo"| Processor details
+<div align="center">Source| Used For
+"/etc/os-release"| Distribution information
+"/proc/cpuinfo"| Processor information
 "uname"| Kernel and architecture
 "hostname"| Hostname
 "uptime"| System uptime
 "nproc"| CPU core count
-"free"| RAM information
+"free"| Memory information
 "df"| Storage information
 "ip"| Network information
-"whoami"| Current username
-"id"| User information
+"whoami"| Current user
+"id"| User ID and identity
 "date"| Date and time
 
----
-
-Testing
-
-Testing is handled by:
-
-tests/test.sh
-
-Run:
-
-bash tests/test.sh
-
-Syntax Check
-
-Before running the application:
-
-bash -n sysinfo.sh
-
-A successful syntax check normally produces no output.
-
-Manual Test
-
-./sysinfo.sh
-
-Verify that the expected sections appear.
-
----
-
-Test Coverage
-
-The basic test suite checks:
-
-[PASS] sysinfo.sh exists
-[PASS] sysinfo.sh is executable
-[PASS] Bash syntax
-[PASS] Welcome message
-[PASS] Creator information
-[PASS] System section
-[PASS] CPU section
-[PASS] Memory section
-[PASS] Storage section
-[PASS] Network section
-[PASS] User section
-
----
+</div>---
 
 Project Structure
 
@@ -474,55 +398,215 @@ linux-system-info/
 │
 ├── sysinfo.sh
 │
+├── tests/
+│   └── test.sh
+│
+├── docs/
+│   ├── usage.md
+│   │
+│   └── screenshots/
+│       └── terminal-output.png
+│
 ├── README.md
 ├── LICENSE
 ├── CONTRIBUTING.md
 ├── CHANGELOG.md
-├── .gitignore
-│
-├── tests/
-│   └── test.sh
-│
-└── docs/
-    ├── usage.md
-    │
-    └── screenshots/
-        └── terminal-output.png
+└── .gitignore
 
 ---
 
-File Guide
+Project Map
 
-File| Description
-"sysinfo.sh"| Main Linux system information utility
-"README.md"| Main project documentation
-"LICENSE"| Project license
+<div align="center">Path| Purpose
+"sysinfo.sh"| Main Bash utility
+"tests/test.sh"| Automated test script
+"docs/usage.md"| Detailed usage guide
+"docs/screenshots/"| Project screenshots
+"README.md"| Project documentation
+"LICENSE"| MIT license
 "CONTRIBUTING.md"| Contribution guidelines
-"CHANGELOG.md"| Version history
+"CHANGELOG.md"| Release history
 ".gitignore"| Git ignore rules
-"tests/test.sh"| Basic automated tests
-"docs/usage.md"| Detailed usage documentation
-"docs/screenshots/terminal-output.png"| Project preview image
+
+</div>---
+
+Testing
+
+The project includes a basic test suite.
+
+Run:
+
+bash tests/test.sh
+
+Syntax Validation
+
+bash -n sysinfo.sh
+
+Manual Test
+
+./sysinfo.sh
 
 ---
 
-Documentation
+Test Pipeline
 
-Detailed usage instructions are available in:
-
-"Usage Guide" (docs/usage.md)
+             ┌─────────────────┐
+             │   Source Code   │
+             └────────┬────────┘
+                      │
+                      ▼
+             ┌─────────────────┐
+             │   Bash Syntax   │
+             │      Check      │
+             └────────┬────────┘
+                      │
+                      ▼
+             ┌─────────────────┐
+             │   Test Suite    │
+             └────────┬────────┘
+                      │
+                      ▼
+             ┌─────────────────┐
+             │  Manual Review  │
+             └────────┬────────┘
+                      │
+                      ▼
+                    PASS
 
 ---
+
+Test Coverage
+
+<div align="center">Test| Validation
+Script exists| "PASS"
+Script executable| "PASS"
+Bash syntax| "PASS"
+Welcome message| "PASS"
+Creator information| "PASS"
+System section| "PASS"
+CPU section| "PASS"
+Memory section| "PASS"
+Storage section| "PASS"
+Network section| "PASS"
+User section| "PASS"
+
+</div>---
+
+Development
+
+Clone:
+
+git clone https://github.com/pandeyujjwal975/linux-system-info.git
+cd linux-system-info
+
+Create a branch:
+
+git checkout -b feature/my-feature
+
+Make your changes.
+
+Validate:
+
+bash -n sysinfo.sh
+
+Run tests:
+
+bash tests/test.sh
+
+Run the application:
+
+./sysinfo.sh
+
+Review:
+
+git diff
+
+---
+
+Contribution Workflow
+
+FORK
+  │
+  ▼
+CLONE
+  │
+  ▼
+BRANCH
+  │
+  ▼
+CODE
+  │
+  ▼
+TEST
+  │
+  ▼
+COMMIT
+  │
+  ▼
+PUSH
+  │
+  ▼
+PULL REQUEST
+
+Read the contribution guide before submitting changes:
+
+"CONTRIBUTING.md" (CONTRIBUTING.md)
+
+---
+
+Contribution Ideas
+
+Want to extend the project?
+
+Consider contributing:
+
+GPU Detection
+Battery Information
+Temperature Information
+Disk Health
+Mounted Drives
+USB Devices
+Display Information
+Docker Detection
+Virtualization Detection
+Package Manager Detection
+Extended Network Information
+JSON Output
+Command-Line Arguments
+Improved Tests
+More Distribution Support
+
+---
+
+Roadmap
+
+<div align="center">Feature| Status
+System information| "DONE"
+CPU information| "DONE"
+Memory information| "DONE"
+Storage information| "DONE"
+Network information| "DONE"
+User information| "DONE"
+Uptime| "DONE"
+Welcome screen| "DONE"
+Test suite| "DONE"
+Documentation| "DONE"
+"--help"| "PLANNED"
+"--version"| "PLANNED"
+JSON output| "PLANNED"
+GPU detection| "PLANNED"
+Battery information| "PLANNED"
+Temperature information| "PLANNED"
+Disk health| "PLANNED"
+Extended hardware info| "PLANNED"
+
+</div>---
 
 Troubleshooting
 
 Permission Denied
 
-If you see:
-
-Permission denied
-
-run:
+Run:
 
 chmod +x sysinfo.sh
 
@@ -538,23 +622,19 @@ bash sysinfo.sh
 
 Script Not Found
 
-Check your current directory:
+Check your location:
 
 pwd
 
-Then:
+List files:
 
-ls
+ls -la
 
-Make sure the following file exists:
-
-sysinfo.sh
+Make sure you are inside the project directory.
 
 ---
 
-Bash Not Found
-
-Check:
+Bash Check
 
 command -v bash
 
@@ -564,282 +644,98 @@ bash --version
 
 ---
 
-Network Information Missing
+Network Command Missing
 
-Check the "ip" command:
+Check:
 
 command -v ip
 
-Test it manually:
+Test:
 
 ip -brief address
 
-If the command is unavailable, network information may not be displayed.
-
 ---
 
-Memory Information Missing
+Memory Command Missing
 
 Check:
 
 command -v free
 
-Then:
+Test:
 
 free -h
 
 ---
 
-CPU Information Missing
+Security
 
-The script may read processor information from:
+Linux System Info is designed as a local information utility.
 
-/proc/cpuinfo
+Normal execution does not require:
 
-Check:
+sudo
+Root access
+API keys
+Database
+Cloud account
+Remote server
 
-ls /proc/cpuinfo
+Always review shell scripts before running modified or untrusted versions.
 
-Then:
+Inspect the source with:
 
-grep -m1 "model name" /proc/cpuinfo
+less sysinfo.sh
 
 ---
 
 Privacy
 
-Linux System Info is designed as a local terminal utility.
+The utility is designed for local execution.
 
-The script collects information from the machine where it is executed and displays it locally.
+System information is collected from the Linux environment where the script is running.
 
-The project does not require:
-
-- User accounts
-- Database access
-- Cloud services
-- Remote monitoring servers
-- API keys
-- Web dashboards
-
-Review the source code before running any modified or third-party version of the script.
+The project does not intentionally upload system information to a remote service.
 
 ---
 
-Security
+Documentation
 
-This project is intended for system-information and learning purposes.
+Detailed usage documentation:
 
-The script should be reviewed before execution if it has been modified.
+"docs/usage.md" (docs/usage.md)
 
-For safe development:
-
-bash -n sysinfo.sh
-
-Review changes with:
-
-git diff
-
-Avoid running modified scripts with unnecessary elevated privileges.
-
-The project does not require "sudo" for its normal operation.
-
----
-
-Development
-
-Clone the repository:
-
-git clone https://github.com/pandeyujjwal975/linux-system-info.git
-
-Enter the directory:
-
-cd linux-system-info
-
-Create a feature branch:
-
-git checkout -b my-feature
-
-Make your changes.
-
-Check syntax:
-
-bash -n sysinfo.sh
-
-Run tests:
-
-bash tests/test.sh
-
-Run the application:
-
-./sysinfo.sh
-
-Review your changes:
-
-git diff
-
----
-
-Contributing
-
-Contributions are welcome.
-
-If you want to improve Linux System Info, you can contribute through:
-
-- Bug fixes
-- New system information modules
-- Better compatibility
-- Improved tests
-- Documentation
-- Performance improvements
-- Code cleanup
-- Feature suggestions
-
-Before contributing, read:
+Contribution guidelines:
 
 "CONTRIBUTING.md" (CONTRIBUTING.md)
 
----
+Project history:
 
-Contribution Workflow
+"CHANGELOG.md" (CHANGELOG.md)
 
-Fork
-  |
-  v
-Clone
-  |
-  v
-Create Branch
-  |
-  v
-Make Changes
-  |
-  v
-Run Tests
-  |
-  v
-Review Changes
-  |
-  v
-Commit
-  |
-  v
-Push
-  |
-  v
-Pull Request
+License:
 
-Example:
-
-git checkout -b feature/gpu-information
-
-bash -n sysinfo.sh
-
-bash tests/test.sh
-
-git add .
-
-git commit -m "Add GPU information"
-
-git push origin feature/gpu-information
-
-Then open a Pull Request on GitHub.
+"LICENSE" (LICENSE)
 
 ---
 
-Ideas for Contribution
+Version
 
-The project can be extended with additional modules.
+Current Version: 1.0.0
 
-Possible ideas:
-
-GPU Information
-Battery Information
-Temperature Information
-Disk Health
-Mounted Drives
-USB Devices
-GPU Memory
-Display Information
-Shell Information
-Package Manager Detection
-Virtualization Detection
-Docker Detection
-Git Information
-JSON Output
-Command-Line Arguments
-
-Contributions should remain lightweight and consistent with the project's Bash-first approach.
-
----
-
-Roadmap
-
-Version 1.0
-
-- [x] Operating system information
-- [x] Kernel information
-- [x] Architecture information
-- [x] Hostname
-- [x] Uptime
-- [x] CPU information
-- [x] CPU core count
-- [x] Memory information
-- [x] Storage information
-- [x] Network information
-- [x] User information
-- [x] Date and time
-- [x] Welcome screen
-- [x] Test script
-- [x] Documentation
-- [x] Project preview
-
-Future
-
-- [ ] "--help"
-- [ ] "--version"
-- [ ] Command-line options
-- [ ] JSON output
-- [ ] GPU detection
-- [ ] Battery information
-- [ ] Temperature information
-- [ ] Disk health information
-- [ ] Hardware details
-- [ ] Extended network information
-- [ ] Improved automated tests
-- [ ] Distribution-specific compatibility improvements
-
----
-
-Versioning
-
-Current version:
-
-1.0.0
-
-Version changes are documented in:
+Release history is available in:
 
 "CHANGELOG.md" (CHANGELOG.md)
 
 ---
 
-License
-
-Linux System Info is open-source software released under the MIT License.
-
-See "LICENSE" (LICENSE) for the complete license text.
-
----
-
 Support the Project
 
-If this project helped you learn Bash, Linux, system administration, or open-source development, you can support its development.
+If Linux System Info is useful to you, you can support the project.
 
 <p align="center">
-  <a href="https://www.buymeacoffee.com/pandeyujjwal975">
-    <img
-      src="https://img.shields.io/badge/Buy_Me_a_Coffee-Support_Project-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black"
-      alt="Buy Me a Coffee"
-    >
+  <a href="https://www.buymeacoffee.com/pandeyujwal975">
+    <img src="https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee">
   </a>
 </p>---
 
@@ -849,15 +745,10 @@ Author
   <strong>Ujjwal Pandey</strong>
 </p><p align="center">
   <a href="https://github.com/pandeyujjwal975">
-    <img
-      src="https://img.shields.io/badge/GitHub-pandeyujjwal975-181717?style=for-the-badge&logo=github&logoColor=white"
-      alt="GitHub Profile"
-    >
-  </a>  <a href="https://www.buymeacoffee.com/pandeyujjwal975">
-    <img
-      src="https://img.shields.io/badge/Buy_Me_a_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black"
-      alt="Buy Me a Coffee"
-    >
+    <img src="https://img.shields.io/badge/GitHub-pandeyujjwal975-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://www.buymeacoffee.com/pandeyujjwal975">
+    <img src="https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee">
   </a>
 </p>---
 
@@ -865,32 +756,39 @@ Repository
 
 <p align="center">
   <a href="https://github.com/pandeyujjwal975/linux-system-info">
-    <strong>View Repository</strong>
+    <img src="https://img.shields.io/badge/VIEW_REPOSITORY-00D9FF?style=for-the-badge&logo=github&logoColor=black" alt="View Repository">
   </a>
 </p><p align="center">
-  <a href="https://github.com/pandeyujjwal975/linux-system-info/issues">
-    Report an Issue
-  </a>
-  ·
-  <a href="https://github.com/pandeyujjwal975/linux-system-info/pulls">
-    Submit a Pull Request
-  </a>
-  ·
-  <a href="https://github.com/pandeyujjwal975/linux-system-info/stargazers">
-    Star the Project
-  </a>
+  <a href="https://github.com/pandeyujjwal975/linux-system-info/stargazers">Star</a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/pandeyujwal975/linux-system-info/issues">Report Issue</a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/pandeyujwal975/linux-system-info/pulls">Contribute</a>
 </p>---
 
-Acknowledgements
+Open Source
 
-Linux System Info was created as a practical Bash and Linux project.
+Linux System Info is built as a practical project for learning and working with:
 
-The project aims to keep system information accessible from the command line while providing a simple codebase for students, developers, Linux users, and open-source contributors to explore.
+Linux
+Bash
+Terminal Utilities
+System Administration
+Git
+GitHub
+Open Source
+
+The codebase is intentionally simple so contributors can understand the project, experiment with it, and extend it without a large technology stack.
 
 ---
 
 <p align="center">
-  <strong>LINUX · BASH · TERMINAL · SYSTEM INFORMATION · OPEN SOURCE</strong>
+  <img src="https://img.shields.io/badge/LINUX-00D9FF?style=flat-square&logo=linux&logoColor=white">
+  <img src="https://img.shields.io/badge/BASH-00FF9C?style=flat-square&logo=gnubash&logoColor=black">
+  <img src="https://img.shields.io/badge/TERMINAL-BD5CFF?style=flat-square&logo=gnometerminal&logoColor=white">
+  <img src="https://img.shields.io/badge/OPEN_SOURCE-FF4ECD?style=flat-square&logo=opensourceinitiative&logoColor=white">
+</p><p align="center">
+  <strong>LINUX • BASH • TERMINAL • SYSTEM INFORMATION</strong>
 </p><p align="center">
   Built with Bash for the Linux community.
 </p><p align="center">
