@@ -109,7 +109,7 @@ you can simply run:
 # Preview
 
 <p align="center">
-  <img src="docs/terminal-output.png" alt="Linux System Info terminal output" width="900">
+  <img src="docs/screenshots/terminal-output.png" alt="Linux System Info terminal output" width="900">
 </p>
 
 Actual values depend on the Linux system where the script is executed.
