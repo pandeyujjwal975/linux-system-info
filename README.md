@@ -1,7 +1,7 @@
 # Linux System Info
 
 <p align="center">
-  <img src="docs/screenshots/thumbnail.png" alt="Linux System Info" width="900">
+  <img src="docs/thumbnail.png" alt="Linux System Info" width="900">
 </p>
 
 <p align="center"><strong>A lightweight Bash utility that turns scattered Linux system commands into one clean terminal report.</strong></p>
