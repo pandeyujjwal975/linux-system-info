@@ -1,7 +1,7 @@
 # Linux System Info
 
 <p align="center">
-  <img src="docs/thumbnail.png" alt="Linux System Info" width="900">
+  <img src="docs/screenshots/thumbnail.png" alt="Linux System Info" width="900">
 </p>
 
 <p align="center"><strong>A lightweight Bash utility that turns scattered Linux system commands into one clean terminal report.</strong></p>
@@ -109,7 +109,7 @@ you can simply run:
 # Preview
 
 <p align="center">
-  <img src="docs/screenshots/terminal-output.png" alt="Linux System Info terminal output" width="900">
+  <img src="docs/terminal-output.png" alt="Linux System Info terminal output" width="900">
 </p>
 
 Actual values depend on the Linux system where the script is executed.
